@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xDWwidFkHVAZ8D9kUuKr3xoK0HgeEgpK5qZK4z9JBgQK0iajqhyPtnodLemlx+fwdntCW+QnQ+PSu/8mDMFTXg==",
+  "dgSpecHash": "ld6Wg9cdNjvQ1wqes48BE+22C4IWju6UG5mUGswOjzA89jUyB1NQVNYlX6j6zjIY1m9M0f8AeFISQdN/TbJ5eQ==",
   "success": true,
-  "projectFilePath": "D:\\REPO PERSONAL\\Witch.Saga.App\\Witch.Saga.App\\Witch.Saga.App.csproj",
+  "projectFilePath": "D:\\REPO PERSONAL\\Geekseat-Witch-Saga\\Witch.Saga.App\\Witch.Saga.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NV-015\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\NV-015\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

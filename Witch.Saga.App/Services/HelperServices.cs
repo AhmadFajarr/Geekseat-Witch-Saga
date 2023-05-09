@@ -13,6 +13,10 @@ namespace Witch.Saga.App.Services
             {
                 averageNumber = -1;
             }
+            else if (killedYear == 1)
+            {
+                averageNumber = killedYear;
+            }
             else
             {
                 for (int i = 2; i < killedYear + 1; i++)

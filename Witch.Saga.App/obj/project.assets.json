@@ -8868,11 +8868,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\REPO PERSONAL\\Witch.Saga.App\\Witch.Saga.App\\Witch.Saga.App.csproj",
+      "projectUniqueName": "D:\\REPO PERSONAL\\Geekseat-Witch-Saga\\Witch.Saga.App\\Witch.Saga.App.csproj",
       "projectName": "Witch.Saga.App",
-      "projectPath": "D:\\REPO PERSONAL\\Witch.Saga.App\\Witch.Saga.App\\Witch.Saga.App.csproj",
+      "projectPath": "D:\\REPO PERSONAL\\Geekseat-Witch-Saga\\Witch.Saga.App\\Witch.Saga.App.csproj",
       "packagesPath": "C:\\Users\\NV-015\\.nuget\\packages\\",
-      "outputPath": "D:\\REPO PERSONAL\\Witch.Saga.App\\Witch.Saga.App\\obj\\",
+      "outputPath": "D:\\REPO PERSONAL\\Geekseat-Witch-Saga\\Witch.Saga.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NV-015\\AppData\\Roaming\\NuGet\\NuGet.Config",
