@@ -1,0 +1,49 @@
+﻿@model List<Person>
+@{
+    ViewData["Title"] = "Persons";
+}
+
+<h5>The Story: Geekseat Witch Saga: Return of The Coder!</h5>
+<div class="row mt-3">
+    <div class="col-md-6">
+        <a asp-action="Create" class="btn btn-primary waves-effect waves-light">Add People Who Will Killed</a>
+    </div>
+    <h5>Average Number Of People : @ViewBag.AverageNumber</h5>
+</div>
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Age Of Death
+                </th>
+                <th>
+                    Year Of Death
+                </th>
+                <th>
+                    Average Number
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AgeOfDeath)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.YearOfDeath)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AverageNumber)
+                    </td>
+                    <td>
+                    @*<td class="text-center">
+                        <a asp-action="Details" class="btn btn-outline-info" asp-route-employeeId="@item.Id">Details</a>
+                    </td>*@
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

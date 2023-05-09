@@ -1,0 +1,26 @@
+USE [WitchSaga]
+GO
+
+/****** Object:  Table [dbo].[Person]    Script Date: 09/05/2023 21:46:16 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Person](
+	[Id] [uniqueidentifier] NOT NULL,
+	[AgeOfDeath] [int] NULL,
+	[YearOfDeath] [int] NULL,
+	[AverageNumber] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Person] ADD  DEFAULT (newid()) FOR [Id]
+GO
+
+
